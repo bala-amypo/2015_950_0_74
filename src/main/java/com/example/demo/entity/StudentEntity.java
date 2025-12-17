@@ -1,5 +1,6 @@
 import jakarta.persistence.*;
 package com.example.project.entity;
+@entity
 public class StudentEntity{
     @id
     @GenerateValue(strategy = GenerationType.IDENTITY)
