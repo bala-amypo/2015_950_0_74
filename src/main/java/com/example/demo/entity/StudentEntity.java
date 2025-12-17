@@ -30,11 +30,11 @@ public class StudentEntity {
     public void setEmail(String email) {
         this.email = email;
     }
-    public Student(Integer id, String name, String email) {
+    public StudentEntity(Integer id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
     }
-    public Student() {
+    public StudentEntity() {
     }
 }
