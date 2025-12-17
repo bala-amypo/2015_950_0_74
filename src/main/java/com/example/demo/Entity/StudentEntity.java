@@ -1,3 +1,4 @@
+import jakarta.persistence.*;
 package com.example.project.entity;
 public class StudentEntity{
     @id
@@ -9,7 +10,7 @@ public class StudentEntity{
 public int getId(){
     return id;
 }
-public void setId(int id){
+public void setId(Integer id){
     this.id=id;
 }
 public String getName(){
@@ -24,4 +25,6 @@ public String getEmail(){
 public void setEmail(String email){
     this.email=email;
 }
-public student(int id,String name,)
+public student(Integer id,String name,String email){
+    
+}
