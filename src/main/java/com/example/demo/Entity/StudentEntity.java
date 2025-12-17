@@ -1,5 +1,7 @@
 package com.example.project.entity;
-public class student{
+public class StudentEntity{
+    @id
+    @GenerateValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
     private String email;
@@ -22,4 +24,4 @@ public String getEmail(){
 public void setEmail(String email){
     this.email=email;
 }
-public student()
+public student(int id,String name,)
